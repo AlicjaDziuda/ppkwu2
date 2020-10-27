@@ -12,6 +12,15 @@ public class Service {
             if(Character.isDigit(characters.charAt(i))){
                 digitCounter = digitCounter +1;
             }
+            else if(Character.isLowerCase(characters.charAt(i))){
+                lowercaseLetterCounter = lowercaseLetterCounter +1;
+            }
+            else if(Character.isUpperCase(characters.charAt(i))){
+                uppercaseLetterCounter = uppercaseLetterCounter +1;
+            }
+            else {
+                specialSignsCounter = specialSignsCounter + 1;
+            }
 
         }
 
