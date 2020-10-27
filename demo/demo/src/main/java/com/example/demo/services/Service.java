@@ -10,16 +10,16 @@ public class Service {
         for( int i =0 ; i < characters.length(); i++){
 
             if(Character.isDigit(characters.charAt(i))){
-                digitCounter = digitCounter +1;
+                digitCounter += 1;
             }
             else if(Character.isLowerCase(characters.charAt(i))){
-                lowercaseLetterCounter = lowercaseLetterCounter +1;
+                lowercaseLetterCounter += 1;
             }
             else if(Character.isUpperCase(characters.charAt(i))){
-                uppercaseLetterCounter = uppercaseLetterCounter +1;
+                uppercaseLetterCounter += 1;
             }
             else
-                specialSignsCounter = specialSignsCounter + 1;
+                specialSignsCounter += 1;
 
         }
         StringBuilder string = new StringBuilder("Numbers: "+ digitCounter + ", UpperCase Letters: " + uppercaseLetterCounter +
