@@ -1,6 +1,6 @@
-#String API
-##Jest to API, które sprawdza jaki string został przekazany.
-###Usługa zlicza cyfry, duże litery, małe litery oraz znaki specjalne w podanym tekście
+# String API
+## Jest to API, które sprawdza jaki string został przekazany.
+### Usługa zlicza cyfry, duże litery, małe litery oraz znaki specjalne w podanym tekście
 
 Aby użyć tego api należy wpisać:
 **http://localhost:8080/restapi/nasztekst**
