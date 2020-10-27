@@ -17,4 +17,9 @@ public class Endpoint {
         this.service = service;
     }
 
+    @GetMapping("/{characters}")
+    public String getResult(@PathVariable String characters) {
+        return service.recognizeCharacters(characters);
+    }
+
 }
