@@ -18,12 +18,12 @@ public class Service {
             else if(Character.isUpperCase(characters.charAt(i))){
                 uppercaseLetterCounter = uppercaseLetterCounter +1;
             }
-            else {
+            else
                 specialSignsCounter = specialSignsCounter + 1;
-            }
 
         }
-
-        return String.valueOf(digitCounter);
+        StringBuilder string = new StringBuilder("Numbers: "+ digitCounter + ", UpperCase Letters: " + uppercaseLetterCounter +
+                                                 ", LowerCase Letters: "+ lowercaseLetterCounter + ", Another Signs: "+ specialSignsCounter);
+        return string.toString();
     }
 }
